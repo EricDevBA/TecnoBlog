@@ -1,0 +1,60 @@
+/* Limpar formtações padroẽs*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f3f3f3;
+}
+
+#navegacao {
+    background: #fff;
+    border-bottom: 1px solid #d8d8d8;
+    height: 45px;
+}
+
+#area {
+    width: 720px;
+    margin: 0 auto;
+}
+
+.blue {
+    color: #0066cc;
+}
+
+#logo {
+    float: left;
+}
+
+#menu {
+    float: right;
+    padding: 10px 0;
+}
+
+a {
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+/*Link não visitado */
+
+a:link {
+    color: #838383;
+}
+
+/*Link visitado*/
+
+a:visited {
+    color: #838383;
+}
+
+/*Estilização ao passar o mouse em cima*/
+
+a:hover {
+    color: #fff;
+    background: #0066cc;
+}
