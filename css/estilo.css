@@ -22,8 +22,15 @@ body {
     margin: 0 auto;
 }
 
-.blue {
-    color: #0066cc;
+#area-principal {
+    width: 720px;
+    margin: 10px auto 10px auto;
+    border: 1px solid red;
+}
+
+#postagem {
+    background: #fff;
+    padding: 10px;
 }
 
 #logo {
@@ -36,8 +43,8 @@ body {
 }
 
 a {
-	text-decoration: none;
-	padding: 5px 10px;
+    text-decoration: none;
+    padding: 5px 10px;
 }
 
 /*Link não visitado */
@@ -57,4 +64,24 @@ a:visited {
 a:hover {
     color: #fff;
     background: #0066cc;
+}
+
+/* Estilização referente a um link que foi visitado */
+
+a:active {
+    color: #535353;
+}
+
+/* Classes */
+
+.blue {
+    color: #0066cc;
+}
+
+.data-postagem {
+    font-size: 14px;
+    border-bottom: solid red #f4f4f4;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
