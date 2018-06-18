@@ -15,6 +15,9 @@ body {
     background: #fff;
     border-bottom: 1px solid #d8d8d8;
     height: 45px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #area {
@@ -24,8 +27,7 @@ body {
 
 #area-principal {
     width: 720px;
-    margin: 10px auto 10px auto;
-    border: 1px solid red;
+    margin: 55px auto 10px auto;
 }
 
 #postagem {
@@ -84,4 +86,20 @@ a:active {
     display: block;
     padding-bottom: 10px;
     margin-bottom: 10px;
+}
+
+.img-postagem {
+    float: left;
+    margin: 0px 10px 5px 0px;
+}
+
+.postado {
+    border-left: 5px solid #d8d8d8;
+    padding-left: 5px;
+    display: block;
+    margin: 10px;
+}
+
+h2 {
+color: #0066cc;
 }
